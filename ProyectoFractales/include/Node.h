@@ -1,8 +1,6 @@
-/** Importar Recursos */
-#include <cstddef>
-/** Definiciones*/
 #ifndef NODE_H
 #define NODE_H
+
 // Clase Nodo(para Double Link Array)
 template <typename E>
 class Node

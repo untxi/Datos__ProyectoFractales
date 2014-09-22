@@ -1,8 +1,10 @@
 #include <iostream>
 #include <winbgim.h>
-#include<Node.h>
-#include<LinkedList.h>
+#include <Node.h>
+#include <LinkedList.h>
 #include <cstdlib>
+#include "CurvaDragon.h"
+#include "DibujaFractal.h"
 
 // Using
 using namespace std;
@@ -25,6 +27,8 @@ void hacerDragon()
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
+    LinkedList<char> miDragon = CurvaDragon(cantIter);
+    DibujaFractal(miDragon, "Dragon");
     cout << "Se dibujo un Fractal Curva de Dragon con " << cantIter << " iteraciones"  << endl;
 }
 // Curva Levy C
@@ -118,7 +122,6 @@ int main()
 				break;
 		}
     }    while(bandera != true);
-
 
     return 0;
 };

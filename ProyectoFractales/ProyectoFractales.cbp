@@ -38,6 +38,7 @@
 		<Unit filename="include/DibujaFractal.h" />
 		<Unit filename="include/LinkedList.h" />
 		<Unit filename="include/Node.h" />
+		<Unit filename="include/UsarWinBGim.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

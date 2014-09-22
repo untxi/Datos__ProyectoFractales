@@ -2,11 +2,11 @@
 // Recursos
 #include <iostream>
 #include <winbgim.h>
-#include<Node.h>
-#include<LinkedList.h>
+#include <Node.h>
+#include <LinkedList.h>
 using namespace std;
 
-LinkedList CurvaDragon(int pIteracion)
+LinkedList<char> CurvaDragon(int pIteracion)
 {
     // Atributos
     LinkedList <char> miListaItera;
@@ -14,10 +14,10 @@ LinkedList CurvaDragon(int pIteracion)
     int sizeLista;
 
     // Si esta vacía, inicia en D
-    if (pIteraciones != 0){miListaItera.append('D');}
+    if (pIteracion != 0){miListaItera.append('D');}
 
     // Gerenerar la lista de direcciones del fractal
-    for(int i=1; i < pIteraciones; i++)
+    for(int i=1; i < pIteracion; i++)
     {
         sizeLista = miListaItera.getSize();
         for(int j = 0; j < sizeLista; j++)
@@ -30,7 +30,7 @@ LinkedList CurvaDragon(int pIteracion)
         }
         miListaItera.append(paso);
         paso = 'D';
-        miListaItera.goToStar();
+        miListaItera.goToStart();
     }
 
     return miListaItera;

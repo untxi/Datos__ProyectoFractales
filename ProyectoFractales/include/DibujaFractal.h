@@ -2,20 +2,22 @@
 // Recursos
 #include <iostream>
 #include <winbgim.h>
-#include<Node.h>
-#include<LinkedList.h>
+#include <Node.h>
+#include <LinkedList.h>
 using namespace std;
 
-void DibujaFractal(LinkedList miCurva, String fractal){
-    // Atributos
-    ListaCurvas = miCurva;
-    tipoFractal = fractal;
+void DibujaFractal(LinkedList<char> miCurva, string fractal){
+
+    // Atributos: Parametros
+    LinkedList<char> ListaCurvas = miCurva;
+    string tipoFractal = fractal;
     int largeLine = 1;
     int tam = ListaCurvas.getSize();
     int inicioX = 1000;
     int inicioY = 200;
-    int finalX  = 1000 + tamLinea;
+    int finalX  = 1000 + largeLine;
     int finalY  = 200;
+
     /** Puntos Cardinales
         1 = norte
         2 = este
@@ -23,9 +25,9 @@ void DibujaFractal(LinkedList miCurva, String fractal){
         4 = oeste
     */
     int puntCard = 2;
-    // Procede Dibujo
-    line(inicioX,inicioY,finalX,finalY);
 
+    // Procede a Dibujar
+    //line(inicioX,inicioY,finalX,finalY);
     for(int i=0; i < tam; i++)
     {
         inicioX = finalX;
@@ -44,7 +46,7 @@ void DibujaFractal(LinkedList miCurva, String fractal){
 
                 case 3:
                     puntCard = 4;
-                    finx = finx - largeLine;
+                    finalX = finalX - largeLine;
                 break;
 
                 case 4:
@@ -77,7 +79,10 @@ void DibujaFractal(LinkedList miCurva, String fractal){
             }
         }
         //SetColorSpace(white);
-        line(inix,iniy,finx,finy);
+        //line(inicioX,inicioY,finalX,finalY);
         ListaCurvas.next();
     }
 };
+
+
+
