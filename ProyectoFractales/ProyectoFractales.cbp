@@ -36,6 +36,7 @@
 		</Compiler>
 		<Unit filename="include/CurvaDragon.h" />
 		<Unit filename="include/CurvaLevy.h" />
+		<Unit filename="include/CurvaSki.h" />
 		<Unit filename="include/DibujaFractal.h" />
 		<Unit filename="include/LinkedList.h" />
 		<Unit filename="include/Node.h" />
