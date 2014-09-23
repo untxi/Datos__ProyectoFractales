@@ -79,11 +79,11 @@ int main()
         cout << "---------------------------------------------" << endl;
         cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
         cout << "**-**-**-**-**-**   Curvas  **-**-**-**-**-**" << endl;
-        cout << "---------------------------------------------\n" << endl << endl;
-        cout << "\t1 . - Curva del Dragon" << endl;
-        cout << "\t2 . - Punta de Flecha Sierpinski" << endl;
-        cout << "\t3 . - Curva de Levy C\n" << endl;
-        cout << "\t4 . - Salir" << endl;
+        cout << "---------------------------------------------\n" << endl;
+        cout << "1 <-Curva del Dragon" << endl;
+        cout << "2 <-Punta de Flecha Sierpinski" << endl;
+        cout << "3 <-Curva de Levy C\n" << endl;
+        cout << "4 <-Salir\n" << endl;
         cout << "Elija una opcion: ";
 
         cin >> tecla;

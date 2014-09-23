@@ -30,3 +30,34 @@
 	<Node.h>
 	<LinkedList.h>
 
+1411431947 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+	<cstdlib>
+	"CurvaDragon.h"
+	"DibujaFractal.h"
+
+1411431947 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\node.h
+
+1411431947 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
+	<Node.h>
+	<iostream>
+	<stdexcept>
+	<cstdlib>
+	<sstream>
+	<iostream>
+
+1411431947 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411431947 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujafractal.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
