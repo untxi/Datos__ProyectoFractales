@@ -8,7 +8,13 @@ using namespace std;
 
 void DibujaFractal(LinkedList<char> miCurva, string fractal){
     // Atributos Gráficos
-    initwindow(700,1000);//,"Dragon");
+    initwindow(1400, 700);
+    //int getvisualpage PROTO(( ));
+    //int getactivepage PROTO(( ));
+    // (actual, actual);//,"Dragon");
+
+    const char*title = "Fractal Curva Dragón";
+    setwindowtitle(title);//const char*title);
     //initwindow( max_x , max_y , "Snake" );//inicia a janela
     moveto(0,0);
     outtextxy(20,600,"= Curva Dragon =");
