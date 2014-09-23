@@ -20,10 +20,10 @@ using std::endl;
 void hacerDragon()
 {
     // Presentación
-    cout << "---------------------------------------------" << endl;
-    cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
-    cout << "**-**-**-**-**  Curva  Dragon  **-**-**-**-**" << endl;
-    cout << "---------------------------------------------\n" << endl << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
+    cout << "|**~**~**~**~**  Curva  Dragon  **~**~**~**~**|" << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
     // Solicitud de Cantidad de Iteraciones
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
@@ -36,10 +36,10 @@ void hacerDragon()
 void hacerLevy()
 {
     // Presentación
-    cout << "---------------------------------------------" << endl;
-    cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
-    cout << "**-**-**-**   Curva  de  Levy  C  **-**-**-**" << endl;
-    cout << "---------------------------------------------\n" << endl << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
+    cout << "|**~**~**~**   Curva  de  Levy  C  **~**~**~**|" << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
     // Solicitud de Cantidad de Iteraciones
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
@@ -51,10 +51,10 @@ void hacerLevy()
 void hacerFlechaS()
 {
     // Presentación
-    cout << "---------------------------------------------" << endl;
-    cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
-    cout << "**-**-** Punta de Flecha Sierpinski  **-**-**" << endl;
-    cout << "---------------------------------------------\n" << endl << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|"   << endl;
+    cout << "|**~**~** Punta de Flecha Sierpinski  **~**~**|" << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
     // Solicitud de Cantidad de Iteraciones
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
@@ -85,15 +85,15 @@ int main()
     char tecla;
 
     do{
-        cout << "---------------------------------------------" << endl;
-        cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
-        cout << "**-**-**-**-**-**   Curvas  **-**-**-**-**-**" << endl;
-        cout << "---------------------------------------------\n" << endl;
-        cout << " Escoja el Fractal que desea visualizar\n";
-        cout << "1 <-Curva del Dragon" << endl;
-        cout << "2 <-Punta de Flecha Sierpinski" << endl;
-        cout << "3 <-Curva de Levy C\n" << endl;
-        cout << "4 <-Salir\n" << endl;
+        cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+        cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
+        cout << "|**~**~**~**~**~**   Curvas  **~**~**~**~**~**|" << endl;
+        cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl;
+        cout << "Escoja el Fractal que desea visualizar\n" <<endl;
+        cout << "   1 <~~Curva del Dragon" << endl;
+        cout << "   2 <~~Punta de Flecha Sierpinski" << endl;
+        cout << "   3 <~~Curva de Levy C\n" << endl;
+        cout << "   4 <~~Salir\n" << endl;
         cout << "Elija una opcion: ";
         cin >> tecla;
 

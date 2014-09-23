@@ -89,7 +89,7 @@ void DibujaFractal(LinkedList<char> miCurva, string fractal){
                 break;
             }
         }
-        setcolor(COLOR(255,100,0));
+        setcolor(COLOR(0,102,102));
         line(inicioX,inicioY,finalX,finalY);
         ListaCurvas.next();
     }
