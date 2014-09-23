@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1411426301 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411438524 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -8,9 +8,9 @@
 	"CurvaDragon.h"
 	"DibujaFractal.h"
 
-1411424583 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
+1411437602 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
 
-1411424145 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
+1411437602 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
 	<Node.h>
 	<iostream>
 	<stdexcept>
@@ -18,13 +18,13 @@
 	<sstream>
 	<iostream>
 
-1411424147 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+1411437602 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411426337 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujafractal.h
+1411440396 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujafractal.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>

@@ -7,6 +7,11 @@
 using namespace std;
 
 void DibujaFractal(LinkedList<char> miCurva, string fractal){
+    // Atributos Gráficos
+    initwindow(700,1000);//,"Dragon");
+    //initwindow( max_x , max_y , "Snake" );//inicia a janela
+    moveto(0,0);
+    outtextxy(20,600,"= Curva Dragon =");
 
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
@@ -27,7 +32,7 @@ void DibujaFractal(LinkedList<char> miCurva, string fractal){
     int puntCard = 2;
 
     // Procede a Dibujar
-    //line(inicioX,inicioY,finalX,finalY);
+    line(inicioX,inicioY,finalX,finalY);
     for(int i=0; i < tam; i++)
     {
         inicioX = finalX;
@@ -78,10 +83,12 @@ void DibujaFractal(LinkedList<char> miCurva, string fractal){
                 break;
             }
         }
-        //SetColorSpace(white);
-        //line(inicioX,inicioY,finalX,finalY);
+        setcolor(COLOR(255,100,0));
+        line(inicioX,inicioY,finalX,finalY);
         ListaCurvas.next();
     }
+    while(!kbhit()); // Espera a que el usuario presione una tecla
+    closegraph(); // Cierra la ventana gráfica
 };
 
 

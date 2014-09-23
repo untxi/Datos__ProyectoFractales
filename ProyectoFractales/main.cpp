@@ -80,33 +80,30 @@ int main()
         cout << "**-**-**-**-**-** Fractales **-**-**-**-**-**" << endl;
         cout << "**-**-**-**-**-**   Curvas  **-**-**-**-**-**" << endl;
         cout << "---------------------------------------------\n" << endl;
+        cout << " Escoja el Fractal que desea visualizar\n";
         cout << "1 <-Curva del Dragon" << endl;
         cout << "2 <-Punta de Flecha Sierpinski" << endl;
         cout << "3 <-Curva de Levy C\n" << endl;
         cout << "4 <-Salir\n" << endl;
         cout << "Elija una opcion: ";
-
         cin >> tecla;
 
 		switch(tecla)
 		{
 			case '1':
-				system("cls");
-				cout << "Fractal Curva del Dragon.\n";
+				//system("cls");
 				hacerDragon();
-				pausa();
+				//pausa();
 				break;
 
 			case '2':
 				system("cls");
-				cout << "Fractal Punta de Flecha Sierpinski.\n";
-				hacerFlechaS();
+                hacerFlechaS();
 				pausa();
 				break;
 
 			case '3':
 				system("cls");
-				cout << "Fractal Curva de Levy C.\n";
 				hacerLevy();
 				pausa();
 				break;
@@ -117,7 +114,6 @@ int main()
 
             default:
 				system("cls");
-				cout << "Opcion no valida.\a\n";
 				pausa();
 				break;
 		}
