@@ -5,7 +5,8 @@
 #include <cstdlib>
 #include "CurvaDragon.h"
 #include "DibujaFractal.h"
-
+#include "CurvaSki.h"
+#include "CurvaLevy.h"
 // Using
 using namespace std;
 using namespace std;
@@ -29,7 +30,7 @@ void hacerDragon()
     cin  >> cantIter;
     LinkedList<char> miDragon = CurvaDragon(cantIter);
     DibujaFractal(miDragon, "Dragon");
-    cout << "Se dibujo un Fractal Curva de Dragon con " << cantIter << " iteraciones"  << endl;
+    //cout << "Se dibujo un Fractal Curva de Dragon con " << cantIter << " iteraciones"  << endl;
 }
 // Curva Levy C
 void hacerLevy()
@@ -58,7 +59,15 @@ void hacerFlechaS()
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
-    cout << "Se dibujo un Fractal Punta de Flecha Sierpinski con " << cantIter << " iteraciones."  << endl;
+    LinkedList<char> miTriangulo;
+    miTriangulo = CurvaSki(cantIter);
+    miTriangulo.goToStart();
+    for (int i = 0; i < miTriangulo.getSize(); i++){
+        cout << miTriangulo.getElement() << endl;
+        miTriangulo.next();
+    }
+    //cout << miTriangulo << endl;
+    //cout << "Se dibujo un Fractal Punta de Flecha Sierpinski con " << cantIter << " iteraciones."  << endl;
 
 }
 //Pausa para el menu
