@@ -17,7 +17,7 @@ LinkedList<char> CurvaDragon(int pIteracion)
     if (pIteracion != 0){miListaItera.append('D');}
 
     // Gerenerar la lista de direcciones del fractal
-    for(int i=1; i < pIteracion; i++)
+    for(int i = 1; i < pIteracion; i++)
     {
         sizeLista = miListaItera.getSize();
         for(int j = 0; j < sizeLista; j++)

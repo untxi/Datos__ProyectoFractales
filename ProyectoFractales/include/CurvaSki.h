@@ -1,18 +1,6 @@
-#ifndef CURVASKI_H
-#define CURVASKI_H
+//#ifndef CURVASKI_H
+//#define CURVASKI_H
 
-
-/**class CurvaSki
-{
-    public:
-        CurvaSki();
-        virtual ~CurvaSki();
-    protected:
-    private:
-};*/
-
-/** ~~~ Curva Dragon ~~~ */
-// Recursos
 #include <iostream>
 #include <winbgim.h>
 #include <Node.h>
@@ -23,38 +11,65 @@ LinkedList<char> CurvaSki(int pIteracion)
 {
     // Atributos
     LinkedList <char> miListaItera;
-    //char paso = 'D'; // Indica la direccion del paso para el dibujo
-    int sizeLista;
+    //int size = miListaItera.getSize();
 
-    // Si esta vacía, inicia en D
-    if (pIteracion == 0)
-    {
-        miListaItera.append('D');
-        miListaItera.append('D');
-    }
-
+    miListaItera.append('D');
+    miListaItera.append('D');
+    miListaItera.goToStart();
     // Gerenerar la lista de direcciones del fractal
-    for(int i=1; i < pIteracion; i++)
+    for (int seg = 0; seg < pIteracion; seg++)
     {
-        sizeLista = miListaItera.getSize();
-        for(int j = 0; j < sizeLista; j++)
+        char primero = miListaItera.getElement();
+        //miListaItera.next();
+        //char segundo = miListaItera.getElement();
+        if(primero == 'D')// && (segundo == 'D'))
         {
-            //miListaItera.insert(paso);
-            if   (miListaItera.getElement() == 'D')
-                {
-                    miListaItera.insert('I');
-                    miListaItera.insert('I');
-                }
-            if (miListaItera.getElement() == 'I')
-                {
-                    miListaItera.insert('D');
-                    miListaItera.insert('D');
-                }
+            miListaItera.goToStart();
+            miListaItera.insert('I');
+            miListaItera.insert('I');
+
             miListaItera.next();
             miListaItera.next();
+
+            miListaItera.insert('D');
+            miListaItera.insert('D');
         }
-        //miListaItera.append(paso);
-        //paso = 'D';
+        if(primero == 'I')// && (segundo == 'D'))
+        {
+            miListaItera.goToStart();
+            miListaItera.insert('D');
+            miListaItera.insert('D');
+
+            miListaItera.next();
+            miListaItera.next();
+
+            miListaItera.insert('I');
+            miListaItera.insert('I');
+        }
+        miListaItera.next();
+        miListaItera.next();
+        miListaItera.next();
+        char linea = miListaItera.getElement();
+        if (linea == 'I')// && (segundo == 'I'))
+        {
+            miListaItera.insert('D');
+            miListaItera.insert('D');
+            miListaItera.next();
+            miListaItera.next();
+
+            miListaItera.insert('I');
+            miListaItera.insert('I');
+        }
+        if (linea == 'D')// && (segundo == 'I'))
+        {
+            miListaItera.insert('I');
+            miListaItera.insert('I');
+            miListaItera.next();
+            miListaItera.next();
+
+            miListaItera.insert('D');
+            miListaItera.insert('D');
+        }
         miListaItera.goToStart();
     }
 
@@ -63,4 +78,4 @@ LinkedList<char> CurvaSki(int pIteracion)
 };
 
 
-#endif // CURVASKI_H
+//#endif // CURVASKI_H

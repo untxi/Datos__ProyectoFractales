@@ -96,6 +96,3 @@ void DibujaFractal(LinkedList<char> miCurva, string fractal){
     while(!kbhit()); // Espera a que el usuario presione una tecla
     closegraph(); // Cierra la ventana gráfica
 };
-
-
-
