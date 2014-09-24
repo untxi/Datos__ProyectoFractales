@@ -7,6 +7,7 @@
 #include "DibujaFractal.h"
 #include "CurvaSki.h"
 #include "CurvaLevy.h"
+#include "DibujaLevy.h"
 // Using
 using namespace std;
 using std::cout;
@@ -19,7 +20,7 @@ using std::endl;
 void hacerDragon()
 {
     // Presentación
-    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
     cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
     cout << "|**~**~**~**~**  Curva  Dragon  **~**~**~**~**|" << endl;
     cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
@@ -36,7 +37,7 @@ void hacerDragon()
 void hacerFlechaS()
 {
     // Presentación
-    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
     cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|"   << endl;
     cout << "|**~**~** Punta de Flecha Sierpinski  **~**~**|" << endl;
     cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
@@ -55,7 +56,7 @@ void hacerFlechaS()
 void hacerLevy()
 {
     // Presentación
-    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
     cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
     cout << "|**~**~**~**   Curva  de  Levy  C  **~**~**~**|" << endl;
     cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
@@ -63,7 +64,9 @@ void hacerLevy()
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
-    cout << "Se dibujo un Fractal Curva de Levy C con " << cantIter << " iteraciones." << endl;
+    LinkedList<char> miLevy = CurvaLevy(cantIter);
+    //DibujaLevy(miLevy, "Levy");
+    //cout << "Se dibujo un Fractal Curva de Levy C con " << cantIter << " iteraciones." << endl;
 
 }
 
@@ -82,7 +85,7 @@ int main()
     char tecla;
 
     do{
-        cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+        cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
         cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
         cout << "|**~**~**~**~**~**   Curvas  **~**~**~**~**~**|" << endl;
         cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl;
@@ -109,9 +112,9 @@ int main()
 				break;
 
 			case '3':
-				system("cls");
+				//system("cls");
 				hacerLevy();
-				pausa();
+				//pausa();
 				break;
 
             case '4':
