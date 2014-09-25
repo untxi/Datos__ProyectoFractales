@@ -6,22 +6,17 @@
 #include <LinkedList.h>
 using namespace std;
 
-void DibujaFractal(LinkedList<char> miCurva, string fractal){
+void DibujaFractal(LinkedList<char> miCurva){
     // Atributos Gráficos
     initwindow(1400, 700);
-    //int getvisualpage PROTO(( ));
-    //int getactivepage PROTO(( ));
-    // (actual, actual);//,"Dragon");
-
+    // Título de la ventana
     const char*title = "Fractal Curva Dragón";
-    setwindowtitle(title);//const char*title);
-    //initwindow( max_x , max_y , "Snake" );//inicia a janela
-    moveto(20,600);
+    setwindowtitle(title);
+    // Info en pantalla
     outtextxy(20,600,"= Curva Dragon =");
-
+    //moveto(20,600);
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
-    string tipoFractal = fractal;
     int largeLine = 3;
     int tam = ListaCurvas.getSize();
     int inicioX = 1000;

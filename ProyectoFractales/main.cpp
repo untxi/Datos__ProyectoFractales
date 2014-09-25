@@ -29,7 +29,7 @@ void hacerDragon()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miDragon = CurvaDragon(cantIter);
-    DibujaFractal(miDragon, "Dragon");
+    DibujaFractal(miDragon);
     //cout << "Se dibujo un Fractal Curva de Dragon con " << cantIter << " iteraciones"  << endl;
 }
 
@@ -46,8 +46,7 @@ void hacerFlechaS()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miTriangulo = CurvaSki(cantIter);
-    DibujaFractal(miTriangulo, "Triangulo");
-    //cout << miTriangulo << endl;
+    DibujaFractal(miTriangulo);
     //cout << "Se dibujo un Fractal Punta de Flecha Sierpinski con " << cantIter << " iteraciones."  << endl;
 
 }
@@ -65,7 +64,7 @@ void hacerLevy()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miLevy = CurvaLevy(cantIter);
-    DibujaFractal(miLevy, "Levy");
+    DibujaFractal(miLevy);
     //cout << "Se dibujo un Fractal Curva de Levy C con " << cantIter << " iteraciones." << endl;
 
 }

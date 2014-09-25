@@ -11,68 +11,34 @@ LinkedList<char> CurvaSki(int pIteracion)
 {
     // Atributos
     LinkedList <char> miListaItera;
-    //int size = miListaItera.getSize();
-
-    miListaItera.append('D');
-    miListaItera.append('D');
-    miListaItera.goToStart();
-    // Gerenerar la lista de direcciones del fractal
-    for (int seg = 0; seg < pIteracion; seg++)
+    // Si esta vacía, inicia en D
+    if (pIteracion != 0)
     {
-        char primero = miListaItera.getElement();
-        //miListaItera.next();
-        //char segundo = miListaItera.getElement();
-        if(primero == 'D')// && (segundo == 'D'))
-        {
-            miListaItera.goToStart();
-            miListaItera.insert('I');
-            miListaItera.insert('I');
-
-            miListaItera.next();
-            miListaItera.next();
-
-            miListaItera.insert('D');
-            miListaItera.insert('D');
-        }
-        if(primero == 'I')// && (segundo == 'D'))
-        {
-            miListaItera.goToStart();
-            miListaItera.insert('D');
-            miListaItera.insert('D');
-
-            miListaItera.next();
-            miListaItera.next();
-
-            miListaItera.insert('I');
-            miListaItera.insert('I');
-        }
-        miListaItera.next();
-        miListaItera.next();
-        miListaItera.next();
-        char linea = miListaItera.getElement();
-        if (linea == 'I')// && (segundo == 'I'))
-        {
-            miListaItera.insert('D');
-            miListaItera.insert('D');
-            miListaItera.next();
-            miListaItera.next();
-
-            miListaItera.insert('I');
-            miListaItera.insert('I');
-        }
-        if (linea == 'D')// && (segundo == 'I'))
-        {
-            miListaItera.insert('I');
-            miListaItera.insert('I');
-            miListaItera.next();
-            miListaItera.next();
-
-            miListaItera.insert('D');
-            miListaItera.insert('D');
-        }
-        miListaItera.goToStart();
+        miListaItera.append('D');
+        miListaItera.append('D');
     }
-
+    for (int i = 0; i < pIteracion; i++)
+    {
+        int sizeMiLista = miListaItera.getSize();
+        miListaItera.goToStart();
+        for (int pos = 0; pos < sizeMiLista; pos++)
+        {
+            miListaItera.goToPos(pos);
+            char elemento = miListaItera.getElement(); // LinkedList, linea 73 imprime el valor en el getElement
+            if (elemento == 'I')
+            {
+                int posActual = miListaItera.getPos();
+                miListaItera.insert('D');
+                miListaItera.insert('D');
+                miListaItera.goToPos(posActual+3);
+            }else{
+                int posActual = miListaItera.getPos();
+                miListaItera.insert('I');
+                miListaItera.insert('I');
+                miListaItera.goToPos(posActual+3);
+            }
+        }
+    }
     return miListaItera;
 
 };
