@@ -32,20 +32,20 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411503141 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411668939 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
+	<cstdlib>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
-	<cstdlib>
 	"CurvaDragon.h"
-	"DibujaFractal.h"
+	"DibujaDragon.h"
 	"CurvaSki.h"
 	"CurvaLevy.h"
 
-1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\node.h
+1411668939 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\node.h
 
-1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
+1411668939 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
 	<Node.h>
 	<iostream>
 	<stdexcept>
@@ -53,7 +53,7 @@
 	<sstream>
 	<iostream>
 
-1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+1411668939 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -77,13 +77,17 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
+1411669432 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411669727 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
 
 1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
 	<iostream>
@@ -92,6 +96,12 @@
 	<LinkedList.h>
 
 1411669335 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411669432 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>

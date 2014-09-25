@@ -5,9 +5,12 @@
 #include <Node.h>
 #include <LinkedList.h>
 using namespace std;
+
 LinkedList<char> CurvaLevy(int pIteracion){
     // Atributos
     LinkedList <char> miListaItera;
+    int posActual;
+    //int sizeLista;
     // Si esta vacía, inicia en D
         for (int i = 0; i <= pIteracion; i++){
             int sizeMiLista = miListaItera.getSize();
@@ -36,6 +39,7 @@ LinkedList<char> CurvaLevy(int pIteracion){
         miListaItera.goToPos(i);
         char elemL = miListaItera.getElement();
         std::cout << "-" << elemL ;
+
     }
     return miListaItera;
 };
