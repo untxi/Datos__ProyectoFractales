@@ -32,7 +32,7 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411664808 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411680560 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
 	<cstdlib>
 	<winbgim.h>
@@ -83,7 +83,7 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411670662 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411681415 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -106,4 +106,6 @@
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
+
+1411679155 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
 
