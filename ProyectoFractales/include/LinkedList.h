@@ -69,7 +69,7 @@ class LinkedList{
                 throw runtime_error("Lista vacia"); }
             if(current == tail){
                 throw runtime_error("No hay elementos"); }
-            std::cout << current->next->element;
+            //std::cout << current->next->element;
             return current->next->element;
         }
         void goToStart(){

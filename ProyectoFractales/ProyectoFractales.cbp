@@ -12,6 +12,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-Wall" />
 					<Add option="-g" />
 					<Add directory="include" />
 				</Compiler>
@@ -42,11 +43,9 @@
 		<Unit filename="include/CurvaDragon.h" />
 		<Unit filename="include/CurvaLevy.h" />
 		<Unit filename="include/CurvaSki.h" />
-		<Unit filename="include/DibujaFractal.h" />
-		<Unit filename="include/DibujaLevy.h" />
+		<Unit filename="include/DibujaDragon.h" />
 		<Unit filename="include/LinkedList.h" />
 		<Unit filename="include/Node.h" />
-		<Unit filename="include/UsarWinBGim.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

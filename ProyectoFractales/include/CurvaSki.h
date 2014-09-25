@@ -17,31 +17,55 @@ LinkedList<char> CurvaSki(int pIteracion)
         miListaItera.append('D');
         miListaItera.append('D');
     }
-    for (int i = 0; i < pIteracion; i++)
+
+    miListaItera.goToPos(0);
+    char elemento = miListaItera.getElement();
+
+    if (elemento == 'D')
     {
-        int sizeMiLista = miListaItera.getSize();
-        miListaItera.goToStart();
-        for (int pos = 0; pos < sizeMiLista; pos++)
+        miListaItera.goToPos(0);
+        miListaItera.insert('I');
+        miListaItera.insert('I');
+    }
+
+    if (elemento == 'I')
+    {
+        miListaItera.goToPos(0);
+        miListaItera.insert('D');
+        miListaItera.insert('D');
+    }
+
+    int pos = 3;
+    miListaItera.goToPos(pos);
+    for (int i = 1; i < pIteracion; i++)
+    {
+        elemento = miListaItera.getElement();
+        if (elemento == 'D')
         {
-            miListaItera.goToPos(pos);
-            char elemento = miListaItera.getElement(); // LinkedList, linea 73 imprime el valor en el getElement
-            if (elemento == 'I')
-            {
-                int posActual = miListaItera.getPos();
-                miListaItera.insert('D');
-                miListaItera.insert('D');
-                miListaItera.goToPos(posActual+3);
-            }else{
-                int posActual = miListaItera.getPos();
-                miListaItera.insert('I');
-                miListaItera.insert('I');
-                miListaItera.goToPos(posActual+3);
-            }
+            miListaItera.goToPos(pos+1);
+            miListaItera.insert('I');
+            miListaItera.insert('I');
         }
+
+        if (elemento == 'I')
+        {
+            miListaItera.goToPos(pos+1);
+            miListaItera.insert('D');
+            miListaItera.insert('D');
+        }
+
+        pos = pos + 3;
+        miListaItera.goToPos(pos);
+    }
+
+
+    int sL = miListaItera.getSize();
+    for (int i = 0; i < sL; i++)
+    {
+        miListaItera.goToPos(i);
+        char elemL = miListaItera.getElement();
+        std::cout << "-" << elemL ;
+
     }
     return miListaItera;
-
 };
-
-
-//#endif // CURVASKI_H

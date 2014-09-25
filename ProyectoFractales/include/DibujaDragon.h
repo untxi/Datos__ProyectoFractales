@@ -87,3 +87,4 @@ void DibujaDragon(LinkedList<char> miCurva){
     while(!kbhit()); // Espera a que el usuario presione una tecla
     closegraph(); // Cierra la ventana gráfica
 };
+
