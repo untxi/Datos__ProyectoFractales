@@ -1,15 +1,14 @@
 # depslib dependency file v1.0
-1411662837 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411664806 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
+	<cstdlib>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
-	<cstdlib>
 	"CurvaDragon.h"
-	"DibujaFractal.h"
+	"DibujaDragon.h"
 	"CurvaSki.h"
 	"CurvaLevy.h"
-	"DibujaLevy.h"
 
 1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
 
@@ -66,13 +65,13 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411664050 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
+1411667805 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411598586 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411667841 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -87,6 +86,12 @@
 1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 
 1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411669335 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>

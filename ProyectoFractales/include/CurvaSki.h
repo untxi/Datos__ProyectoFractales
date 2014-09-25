@@ -53,7 +53,6 @@ LinkedList<char> CurvaSki(int pIteracion)
             miListaItera.insert('D');
             miListaItera.insert('D');
         }
-
         pos = pos + 3;
         miListaItera.goToPos(pos);
     }

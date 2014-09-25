@@ -17,7 +17,7 @@ void DibujaDragon(LinkedList<char> miCurva){
     //moveto(20,600);
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
-    int largeLine = 3;
+    int largeLine = 2;
     int tam = ListaCurvas.getSize();
     int inicioX = 1000;
     int inicioY = 200;
@@ -29,6 +29,7 @@ void DibujaDragon(LinkedList<char> miCurva){
     int puntCard = 2;
 
     // Procede a Dibujar
+    setcolor(COLOR(102,255,255));
     line(inicioX,inicioY,finalX,finalY);
     for(int i=0; i < tam; i++)
     {
@@ -80,7 +81,7 @@ void DibujaDragon(LinkedList<char> miCurva){
                 break;
             }
         }
-        setcolor(COLOR(0,102,102));
+        setcolor(COLOR(102,255,255));
         line(inicioX,inicioY,finalX,finalY);
         ListaCurvas.next();
     }
