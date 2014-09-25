@@ -17,7 +17,7 @@ void DibujaDragon(LinkedList<char> miCurva){
     //moveto(20,600);
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
-    int largeLine = 2;
+    float largeLine = 1;
     int tam = ListaCurvas.getSize();
     int inicioX = 1000;
     int inicioY = 200;
