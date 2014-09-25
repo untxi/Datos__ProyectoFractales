@@ -56,7 +56,7 @@ void hacerFlechaS()
 void hacerLevy()
 {
     // Presentación
-    cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
+    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
     cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
     cout << "|**~**~**~**   Curva  de  Levy  C  **~**~**~**|" << endl;
     cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
@@ -65,7 +65,7 @@ void hacerLevy()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miLevy = CurvaLevy(cantIter);
-    //DibujaLevy(miLevy, "Levy");
+    DibujaFractal(miLevy, "Levy");
     //cout << "Se dibujo un Fractal Curva de Levy C con " << cantIter << " iteraciones." << endl;
 
 }

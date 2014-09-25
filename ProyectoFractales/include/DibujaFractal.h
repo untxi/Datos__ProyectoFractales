@@ -16,25 +16,21 @@ void DibujaFractal(LinkedList<char> miCurva, string fractal){
     const char*title = "Fractal Curva Dragón";
     setwindowtitle(title);//const char*title);
     //initwindow( max_x , max_y , "Snake" );//inicia a janela
-    moveto(0,0);
+    moveto(20,600);
     outtextxy(20,600,"= Curva Dragon =");
 
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
     string tipoFractal = fractal;
-    int largeLine = 1;
+    int largeLine = 3;
     int tam = ListaCurvas.getSize();
     int inicioX = 1000;
     int inicioY = 200;
     int finalX  = 1000 + largeLine;
     int finalY  = 200;
 
-    /** Puntos Cardinales
-        1 = norte
-        2 = este
-        3 = sur
-        4 = oeste
-    */
+    /* Puntos Cardinales*/
+    // Este 2
     int puntCard = 2;
 
     // Procede a Dibujar

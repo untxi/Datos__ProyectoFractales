@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1411565824 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411598586 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -11,9 +11,9 @@
 	"CurvaLevy.h"
 	"DibujaLevy.h"
 
-1411504126 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
+1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
 
-1411504126 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
+1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
 	<Node.h>
 	<iostream>
 	<stdexcept>
@@ -21,13 +21,13 @@
 	<sstream>
 	<iostream>
 
-1411506161 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411504676 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujafractal.h
+1411592051 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujafractal.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -66,13 +66,13 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411508894 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
+1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411565867 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411598586 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -86,7 +86,7 @@
 
 1411500908 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 
-1411564217 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+1411582416 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
