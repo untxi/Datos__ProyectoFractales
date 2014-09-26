@@ -21,7 +21,7 @@ public:
     void avanzar(int c){
         int x2 = cos((rumbo* M_PI) / 180) * c;
         int y2 = sin((rumbo* M_PI) / 180) * c;
-        setcolor(COLOR(0,204,0));
+        setcolor(COLOR(random(0-255),random(0-255),random(0-255)));
         line (x,y,x+x2,y+y2);
         x = x + x2;
         y = y + y2;

@@ -77,7 +77,7 @@ void DibujaDragon(LinkedList<char> miCurva){
                 break;
             }
         }
-        setcolor(COLOR(102,255,255));
+        setcolor(COLOR(random(0-255),random(0-255),random(0-255)));
         line(inicioX,inicioY,finalX,finalY);
         ListaCurvas.next();
     }
