@@ -109,3 +109,61 @@
 
 1411679155 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
 
+1411737021 source:c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\main.cpp
+	<iostream>
+	<cstdlib>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+	"CurvaDragon.h"
+	"DibujaDragon.h"
+	"CurvaSki.h"
+	"CurvaLevy.h"
+	"DibujaLevy.h"
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\node.h
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\linkedlist.h
+	<Node.h>
+	<iostream>
+	<stdexcept>
+	<cstdlib>
+	<sstream>
+	<iostream>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\curvadragon.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\dibujadragon.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\curvaski.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\curvalevy.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+	<Tortuga.h>
+
+1411737021 c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\include\tortuga.h
+	<math.h>
+	<iostream>
+	<winbgim.h>
+
