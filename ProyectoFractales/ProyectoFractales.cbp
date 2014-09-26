@@ -46,6 +46,7 @@
 		<Unit filename="include/DibujaDragon.h" />
 		<Unit filename="include/DibujaLevy.h" />
 		<Unit filename="include/DibujaSki.h" />
+		<Unit filename="include/Lapiz.h" />
 		<Unit filename="include/LinkedList.h" />
 		<Unit filename="include/Node.h" />
 		<Unit filename="include/Tortuga.h" />

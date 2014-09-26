@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1411744812 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411758540 source:c:\users\samantha\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
 	<cstdlib>
 	<winbgim.h>
@@ -12,9 +12,9 @@
 	<CurvaLevy.h>
 	<DibujaLevy.h>
 
-1411741072 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\node.h
 
-1411741072 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\linkedlist.h
 	<Node.h>
 	<iostream>
 	<stdexcept>
@@ -22,7 +22,7 @@
 	<sstream>
 	<iostream>
 
-1411741072 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -69,13 +69,13 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411741339 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411741072 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -93,14 +93,14 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411743577 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+1411758947 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 	<Tortuga.h>
 
-1411741072 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -177,12 +177,12 @@
 	<iostream>
 	<winbgim.h>
 
-1411742562 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\tortuga.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\tortuga.h
 	<math.h>
 	<iostream>
 	<winbgim.h>
 
-1411744828 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujaski.h
+1411758540 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\dibujaski.h
 	<iostream>
 	<winbgim.h>
 	<math.h>
@@ -190,7 +190,7 @@
 	<LinkedList.h>
 	<Lapiz.h>
 
-1411744879 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\lapiz.h
+1411758980 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\lapiz.h
 	<math.h>
 	<iostream>
 	<winbgim.h>
