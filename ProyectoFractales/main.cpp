@@ -1,10 +1,11 @@
+// Librerías
 #include <iostream>
 #include <cstdlib>
-
+// EStructuras
 #include <winbgim.h>
 #include <Node.h>
 #include <LinkedList.h>
-
+// Funciones de Dibujo
 #include <CurvaDragon.h>
 #include <DibujaDragon.h>
 #include <CurvaSki.h>
@@ -24,9 +25,9 @@ void hacerDragon()
 {
     // Presentación
     cout << "\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|" << endl;
-    cout << "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
-    cout << "|**~**~**~**~**  Curva  Dragon  **~**~**~**~**|" << endl;
-    cout << "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
+    cout <<  "|**~**~**~**~**~** Fractales **~**~**~**~**~**|" << endl;
+    cout <<  "|**~**~**~**~**  Curva  Dragon  **~**~**~**~**|" << endl;
+    cout <<  "|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n" << endl << endl;
     // Solicitud de Cantidad de Iteraciones
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;

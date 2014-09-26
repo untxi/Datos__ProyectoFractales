@@ -6,6 +6,7 @@
 #include <Node.h>
 #include <LinkedList.h>
 #include <Lapiz.h>
+
 using namespace std;
 
 void DibujaSki(LinkedList<char> miCurva, int iteracion)
@@ -41,14 +42,6 @@ void DibujaSki(LinkedList<char> miCurva, int iteracion)
             }
 
     }
-    /**for (int elemt = 0; elemt < ListaCurvas.getSize(); elemt++)
-    {
-        ListaCurvas.goToPos(elemt);
-        if (ListaCurvas.getElement() == 'D'){lapiz.girar(-60);}
-        else{lapiz.girar(60);}
-        lapiz.avanzar(3);
-    }*/
-
     while(!kbhit()); // Espera a que el usuario presione una tecla
     closegraph(); // Cierra la ventana gráfica
 };

@@ -4,6 +4,7 @@
 #include <winbgim.h>
 #include <Node.h>
 #include <LinkedList.h>
+
 using namespace std;
 
 void DibujaDragon(LinkedList<char> miCurva){

@@ -54,13 +54,5 @@ LinkedList<char> CurvaSki(int pIteracion){
         paso = 'D';
         miListaItera.goToStart();
     }
-    /**   int sL = miListaItera.getSize();
-    for (int i = 0; i < sL; i++)
-    {
-        miListaItera.goToPos(i);
-        char elemL = miListaItera.getElement();
-        std::cout << "-" << elemL ;
-    }*/
-
     return miListaItera;
 };
