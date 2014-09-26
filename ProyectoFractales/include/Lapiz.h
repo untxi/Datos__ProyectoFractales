@@ -1,8 +1,9 @@
+
 #include <math.h>
 #include <iostream>
 #include <winbgim.h>
 
-class Tortuga
+class Lapiz
 {
 private:
     int x;
@@ -10,7 +11,7 @@ private:
     double rumbo;
 
 public:
-    Tortuga(){
+    Lapiz(){
         x = 200;
         y = 450;
         rumbo = 0;

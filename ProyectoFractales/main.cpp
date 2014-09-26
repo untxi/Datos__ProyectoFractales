@@ -2,16 +2,15 @@
 #include <cstdlib>
 
 #include <winbgim.h>
-
 #include <Node.h>
 #include <LinkedList.h>
 
-#include "CurvaDragon.h"
-#include "DibujaDragon.h"
-#include "CurvaSki.h"
-
-#include "CurvaLevy.h"
-#include "DibujaLevy.h"
+#include <CurvaDragon.h>
+#include <DibujaDragon.h>
+#include <CurvaSki.h>
+#include <DibujaSki.h>
+#include <CurvaLevy.h>
+#include <DibujaLevy.h>
 // Using
 using namespace std;
 using std::cout;
@@ -48,7 +47,8 @@ void hacerFlechaS()
     int cantIter;
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
-    LinkedList<char> miTriangulo = CurvaSki(cantIter);
+    LinkedList<char> miFlecha = CurvaSki(cantIter);
+    DibujaSki(miFlecha);
 }
 
 // Curva Levy C
@@ -70,7 +70,7 @@ void hacerLevy()
 //Pausa para el menu
 void pausa()
 {
-    cout << "Pulsa una tecla para continuar...";
+    cout << "P\ERROR\n     Opcion Incorrecta\nPresiona una tecla para volver al menu.";
     getwchar();
     getwchar();
 }

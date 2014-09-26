@@ -4,7 +4,9 @@
 #include <winbgim.h>
 #include <Node.h>
 #include <LinkedList.h>
+
 using namespace std;
+
 // Función: Genera Lista de direcciones para dibujar
 LinkedList<char> CurvaSki(int pIteracion){
 	// Atributos
@@ -59,5 +61,6 @@ LinkedList<char> CurvaSki(int pIteracion){
         char elemL = miListaItera.getElement();
         std::cout << "-" << elemL ;
     }*/
+
     return miListaItera;
 };
