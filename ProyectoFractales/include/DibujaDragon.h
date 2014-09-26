@@ -14,7 +14,6 @@ void DibujaDragon(LinkedList<char> miCurva){
     setwindowtitle(title);
     // Info en pantalla
     outtextxy(20,600,"= Curva Dragon =");
-    //moveto(20,600);
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
     float largeLine = 1;
@@ -23,11 +22,7 @@ void DibujaDragon(LinkedList<char> miCurva){
     int inicioY = 200;
     int finalX  = 1000 + largeLine;
     int finalY  = 200;
-
-    /* Puntos Cardinales*/
-    // Este 2
     int puntCard = 2;
-
     // Procede a Dibujar
     setcolor(COLOR(102,255,255));
     line(inicioX,inicioY,finalX,finalY);
@@ -88,4 +83,3 @@ void DibujaDragon(LinkedList<char> miCurva){
     while(!kbhit()); // Espera a que el usuario presione una tecla
     closegraph(); // Cierra la ventana gráfica
 };
-

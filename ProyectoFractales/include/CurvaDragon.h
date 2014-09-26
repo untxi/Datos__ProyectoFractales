@@ -6,16 +6,13 @@
 #include <LinkedList.h>
 using namespace std;
 
-LinkedList<char> CurvaDragon(int pIteracion)
-{
+LinkedList<char> CurvaDragon(int pIteracion){
     // Atributos
     LinkedList <char> miListaItera;
     char paso = 'D'; // Indica la direccion del paso para el dibujo
     int sizeLista;
-
     // Si esta vacía, inicia en D
     if (pIteracion != 0){miListaItera.append('D');}
-
     // Gerenerar la lista de direcciones del fractal
     for(int i = 1; i < pIteracion; i++)
     {
@@ -32,7 +29,5 @@ LinkedList<char> CurvaDragon(int pIteracion)
         paso = 'D';
         miListaItera.goToStart();
     }
-
     return miListaItera;
-
 };

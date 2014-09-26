@@ -1,70 +1,63 @@
-//#ifndef CURVASKI_H
-//#define CURVASKI_H
-
+/** ~~~ Curva Ski ~~~ */
+// Recursos
 #include <iostream>
 #include <winbgim.h>
 #include <Node.h>
 #include <LinkedList.h>
 using namespace std;
-
-LinkedList<char> CurvaSki(int pIteracion)
-{
-    // Atributos
+// Función: Genera Lista de direcciones para dibujar
+LinkedList<char> CurvaSki(int pIteracion){
+	// Atributos
     LinkedList <char> miListaItera;
-    // Si esta vacía, inicia en D
+    char paso = 'D'; // Indica la direccion del paso para el dibujo
+    int sizeLista;
+	// Si esta vacía, inicia en DD
     if (pIteracion != 0)
     {
-        miListaItera.append('D');
-        miListaItera.append('D');
+		miListaItera.append('D');
+		miListaItera.append('D');
     }
-
-    miListaItera.goToPos(0);
-    char elemento = miListaItera.getElement();
-
-    if (elemento == 'D')
+	// Gerenerar la lista de direcciones del fractal
+    for(int i = 0; i < pIteracion; i++)
     {
+        // Inicio
         miListaItera.goToPos(0);
-        miListaItera.insert('I');
-        miListaItera.insert('I');
-    }
-
-    if (elemento == 'I')
-    {
-        miListaItera.goToPos(0);
-        miListaItera.insert('D');
-        miListaItera.insert('D');
-    }
-
-    int pos = 3;
-    miListaItera.goToPos(pos);
-    for (int i = 1; i < pIteracion; i++)
-    {
-        elemento = miListaItera.getElement();
-        if (elemento == 'D')
+        char primero = miListaItera.getElement();
+        if (primero == 'D')
         {
-            miListaItera.goToPos(pos+1);
             miListaItera.insert('I');
             miListaItera.insert('I');
+            paso = 'D';
+        }else{
+            miListaItera.insert('D');
+            miListaItera.insert('D');
+            paso = 'I';
         }
-
-        if (elemento == 'I')
+        sizeLista = miListaItera.getSize();
+        miListaItera.goToPos(3);
+        for(int j = 3; j < sizeLista; j++)
         {
-            miListaItera.goToPos(pos+1);
-            miListaItera.insert('D');
-            miListaItera.insert('D');
+            miListaItera.insert(paso);
+			miListaItera.insert(paso);
+
+            miListaItera.next();
+            miListaItera.next();
+			miListaItera.next();
+
+			if   (paso == 'D')   {paso = 'I';}
+            else {paso  = 'D';}
         }
-        pos = pos + 3;
-        miListaItera.goToPos(pos);
+        miListaItera.append(paso);
+		miListaItera.append(paso);
+        paso = 'D';
+        miListaItera.goToStart();
     }
-
-
-    int sL = miListaItera.getSize();
+    /**   int sL = miListaItera.getSize();
     for (int i = 0; i < sL; i++)
     {
         miListaItera.goToPos(i);
         char elemL = miListaItera.getElement();
         std::cout << "-" << elemL ;
-
-    }
+    }*/
     return miListaItera;
 };
