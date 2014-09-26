@@ -1,4 +1,4 @@
-/** ~~~ Dibuja Dragon ~~~ */
+/** ~~~ Dibuja Sierpinski ~~~ */
 // Recursos
 #include <iostream>
 #include <winbgim.h>

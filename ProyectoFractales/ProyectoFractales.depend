@@ -34,16 +34,18 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411711122 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
+1411751775 source:c:\users\marco\documents\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
 	<cstdlib>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
-	"CurvaDragon.h"
-	"DibujaDragon.h"
-	"CurvaSki.h"
-	"CurvaLevy.h"
+	<CurvaDragon.h>
+	<DibujaDragon.h>
+	<CurvaSki.h>
+	<DibujaSki.h>
+	<CurvaLevy.h>
+	<DibujaLevy.h>
 
 1411711122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\node.h
 
@@ -55,7 +57,7 @@
 	<sstream>
 	<iostream>
 
-1411711122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
+1411746122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -79,13 +81,13 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411711122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
+1411746122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvaski.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411711122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
+1411750704 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\curvalevy.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
@@ -104,13 +106,18 @@
 	<Node.h>
 	<LinkedList.h>
 
-1411711122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
+1411746122 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujadragon.h
 	<iostream>
 	<winbgim.h>
 	<Node.h>
 	<LinkedList.h>
 
-1411679155 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+1411751884 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujalevy.h
+	<iostream>
+	<winbgim.h>
+	<Node.h>
+	<LinkedList.h>
+	<Tortuga.h>
 
 1411737021 source:c:\users\samantha\documents\github\datos__proyectofractales\proyectofractales\main.cpp
 	<iostream>
@@ -184,6 +191,24 @@
 	<Lapiz.h>
 
 1411744879 c:\users\samantha\documents\datos__proyectofractales\proyectofractales\include\lapiz.h
+	<math.h>
+	<iostream>
+	<winbgim.h>
+
+1411747812 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\dibujaski.h
+	<iostream>
+	<winbgim.h>
+	<math.h>
+	<Node.h>
+	<LinkedList.h>
+	<Lapiz.h>
+
+1411745277 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\lapiz.h
+	<math.h>
+	<iostream>
+	<winbgim.h>
+
+1411751980 c:\users\marco\documents\datos__proyectofractales\proyectofractales\include\tortuga.h
 	<math.h>
 	<iostream>
 	<winbgim.h>

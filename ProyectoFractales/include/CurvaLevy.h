@@ -36,5 +36,6 @@ LinkedList<char> CurvaLevy(int pIteracion){
                 }
             }
         }
+
     return miListaItera;
 };

@@ -11,12 +11,12 @@ private:
 
 public:
     Tortuga(){
-        x = 200;
-        y = 450;
+        x = 500;
+        y = 500;
         rumbo = 0;
     }
-void girar(int c){
-        rumbo = fmod ((rumbo+c),360);
+    void girar(int c){
+        rumbo+=c;
     }
     void avanzar(int c){
         int x2 = cos((rumbo* M_PI) / 180) * c;
