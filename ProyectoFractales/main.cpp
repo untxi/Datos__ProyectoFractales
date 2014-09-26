@@ -10,6 +10,7 @@
 #include "DibujaDragon.h"
 #include "CurvaSki.h"
 #include "CurvaLevy.h"
+#include "DibujaLevy.h"
 // Using
 using namespace std;
 using std::cout;
@@ -62,6 +63,7 @@ void hacerLevy()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miLevy = CurvaLevy(cantIter);
+    DibujaLevy(miLevy);
 }
 
 //Pausa para el menu
