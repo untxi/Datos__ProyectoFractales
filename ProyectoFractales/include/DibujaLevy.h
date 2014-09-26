@@ -15,15 +15,14 @@ void DibujaLevy(LinkedList<char> miCurva){
     setwindowtitle(title);
     // Info en pantalla
     outtextxy(20,600,"= Curva Levy C =");
-    //moveto(20,600);
     // Atributos: Parametros
     LinkedList<char> ListaCurvas = miCurva;
     float largeLine = 1;
     int tam = ListaCurvas.getSize();
-    int inicioX = 1000;
-    int inicioY = 200;
-    int finalX  = 1000 + largeLine;
-    int finalY  = 200;
+    int inicioX = 500;
+    int inicioY = 100;
+    int finalX  = 500 + largeLine;
+    int finalY  = 100;
     // Instancia de la tortuga con la que dibujaremos
     Tortuga dibuja;
 

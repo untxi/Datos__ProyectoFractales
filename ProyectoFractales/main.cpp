@@ -48,7 +48,7 @@ void hacerFlechaS()
     cout << "Cantidad de Iteraciones deseadas: " ;
     cin  >> cantIter;
     LinkedList<char> miFlecha = CurvaSki(cantIter);
-    DibujaSki(miFlecha);
+    DibujaSki(miFlecha, cantIter);
 }
 
 // Curva Levy C
